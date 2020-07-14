@@ -82,7 +82,15 @@ td,th {
 .input-field > label {
     color: white;
     font-weight: bold;
-    /* text-decoration-color: black; */
+}
+
+.input-field input[type=text],
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid black;
+}
+
+ul.dropdown-content.select-dropdown li span {
+    color: black;
 }
 
 .scoreTimer {
