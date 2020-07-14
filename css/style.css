@@ -38,13 +38,15 @@ header {
 
 nav {
     text-align: center;
-    background-color: rgba(46, 139, 86, 0.2);
+    /* background-color: rgba(46, 139, 86, 0.2); */
+    background-color: rgba(240, 220, 240, 0.2);
     color: white;
     padding: 0 10px;
 }
 
 table {
-    background-color: rgba(46, 139, 86, 0.4);
+    /* background-color: rgba(46, 139, 86, 0.4); */
+    background-color: rgba(240, 220, 240, 0.4);
 }
 
 td,th {
@@ -69,7 +71,8 @@ td,th {
 }
 
 .logo:hover, #back:hover {
-    color: rgb(212, 212, 212);
+    /* color: rgb(212, 212, 212); */
+    color: rgb(240, 220, 212);
 }
 
 .row {
@@ -79,6 +82,7 @@ td,th {
 .input-field > label {
     color: white;
     font-weight: bold;
+    /* text-decoration-color: black; */
 }
 
 .scoreTimer {

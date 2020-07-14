@@ -126,7 +126,8 @@ $(document).ready(function () {
                 var row = createRow(rank, userName, userScore);
                 // highlights the user's score
                 if (isUserDisplayed && !isHighlighted) {
-                    row.css("background", "rgba(46, 139, 86, 0.8)");
+                    // row.css("background", "rgba(46, 139, 86, 0.8)");
+                    row.css("background", "rgba(240, 220, 240, 0.8)");
                     isHighlighted = true;
                 }
                 leaderBoard.append(row);
