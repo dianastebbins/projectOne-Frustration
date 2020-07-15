@@ -351,7 +351,7 @@ $(document).ready(function () {
     }
 
     function checkCardSelection() {
-        // don't evaluated, or flip, already matched cards
+        // don't evaluate, or flip, already matched cards
         if ($(this).hasClass("locked")) {
             // console.log("cardsClicked: " + cardsClicked + " card is locked: " + $(this).find("img").data("board-position"));
             return;

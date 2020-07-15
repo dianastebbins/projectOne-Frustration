@@ -89,11 +89,6 @@ td,th {
     border-bottom: 1px solid black;
 }
 
-#name-container::after {
-    content: ' ';
-    color: red;
-}
-
 ul.dropdown-content.select-dropdown li span {
     color: black;
 }
